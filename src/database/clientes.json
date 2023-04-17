@@ -1,0 +1,101 @@
+[
+    {
+        "id": 1,
+        "name": "John",
+        "automovel": "Ford",
+        "modelo":"KA",
+        "year": 1964
+    },
+    {
+        "id": 2,
+        "name": "Peter",
+        "automovel": "BMW",
+        "modelo":"X1",
+        "year": 2015
+    },
+    {
+        "id": 3,
+        "name": "Amy",
+        "automovel": "Ford",
+        "modelo":"Fiesta",
+        "year": 2018
+    },
+    {
+        "id": 4,
+        "name": "Hannah",
+        "automovel": "Ford",
+        "modelo":"Mustang",
+        "year": 2019
+    },
+    {
+        "id": 5,
+        "name": "Michael",
+        "automovel": "Chevrolet",
+        "modelo":"Onix",
+        "year": 2017
+    },
+    {
+        "id": 6,
+        "name": "Sandy",
+        "automovel": "Ford",
+        "modelo": "Ranger",
+        "year": 2019
+    },
+    {
+        "id": 7,
+        "name": "Betty",
+        "automovel": "Ford",
+        "modelo":"F-150",
+        "year": 2019
+    },
+    {
+        "id": 8,
+        "name": "Richard",
+        "automovel": "Ford",
+        "modelo":"KA",
+        "year": 2019
+    },
+    {
+        "id": 9,
+        "name": "Susan",
+        "automovel": "Ford",
+        "modelo":"Maverick",
+        "year": 2019
+    },
+    {
+        "id": 10,
+        "name": "Vicky",
+        "automovel": "Ford",
+        "modelo":"F-150",
+        "year": 2019
+    },
+    {
+        "id": 11,
+        "name": "Ben",
+        "automovel": "Ford",
+        "modelo":"Transit minibus",
+        "year": 2019
+    },
+    {
+        "id": 12,
+        "name": "William",
+        "automovel": "Ford",
+        "modelo":"Transit minibus",
+        "year": 2019
+    },
+    {
+        "id": 13,
+        "name": "Chuck",
+        "automovel": "Ford",
+        "modelo": "KA",
+        "year": 2019
+    },
+    {
+        "id": 14,
+        "name": "Viola",
+        "automovel": "Ford",
+        "modelo": "Ranger XL CD",
+        "year": 2019
+    }
+    
+]
