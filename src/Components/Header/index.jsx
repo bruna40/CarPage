@@ -7,7 +7,7 @@ export function Header() {
         <Container>
             <img src={logo} width={150}/>
             <div>
-                <NavLink to='/Home' title='Login'>
+                <NavLink to='/' title='Login'>
                     <button>Home</button>
                 </NavLink>
                 <NavLink to='/historico' title='Historico'>
