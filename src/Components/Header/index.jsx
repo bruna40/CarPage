@@ -10,9 +10,6 @@ export function Header() {
                 <NavLink to='/Home' title='Login'>
                     <button>Home</button>
                 </NavLink>
-                <NavLink to='/servico' title='Service'>
-                    <button>Serviço</button>
-                </NavLink>
                 <NavLink to='/historico' title='Historico'>
                     <button>Historico</button>
                 </NavLink>

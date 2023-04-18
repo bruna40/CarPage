@@ -1,12 +1,12 @@
-import { Container } from './style'
+import { ContainerCliente } from './style';
 
 export function Cliente() {
     return (
-        <Container>
-            <p>Nome: Bruna |</p>
-            <p>Automovel: Ferrari |</p>
-            <p>Modelo: F8 |</p>
-            <p>Ano: 2022</p>
-        </Container>
+        <ContainerCliente>
+            <p>Nome: Ada |</p>
+            <p>Marca: Ford |</p>
+            <p>Modelo: KA |</p>
+            <p>Ano: 2015</p>
+        </ContainerCliente>
     )
 }

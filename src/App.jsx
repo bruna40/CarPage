@@ -1,12 +1,15 @@
 import { GlobalStyle } from "./Style/global"
 import { BrowserRouter } from 'react-router-dom';
 import Router from './Routes/index';
+import { CycleProvider } from "./Context/CycleContext";
 
 function App() {
 
   return (
     <BrowserRouter>
-      <Router />
+      <CycleProvider>
+        <Router />
+      </CycleProvider>
       <GlobalStyle />
     </BrowserRouter>
   )

@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const ContainerCliente = styled.span`
+export const ContainerTimer = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
@@ -11,12 +11,13 @@ export const ContainerCliente = styled.span`
     padding: 8px 4px;
     border-radius: 10px;
     margin: 0 200px;
+    margin-top: 20px;
 
-    p {
-        font-size: 1.5rem;
+
+    span {
+        font-size: 2.5rem;
         color: #fff;
         font-weight: 700;
         margin: 0 10px;
     }
-
-`;
+  `;
