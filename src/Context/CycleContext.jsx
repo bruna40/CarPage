@@ -9,7 +9,9 @@ export function CycleProvider({ children }) {
     const [idCliente, setIdCliente] = useState("");
     const [tempo, setTempo] = useState(0);
     const [selecionado, setSelecionado] = useState();
-    const [ servico, setServico ] = useState([]);
+    const [ servico, setServico ] = useState('');
+    const [ valor, setValor ] = useState('');
+    const [ funcionario, setFuncionario ] = useState('');
 
     
 
@@ -26,7 +28,11 @@ export function CycleProvider({ children }) {
             selecionado,
             setSelecionado,
             servico,
-            setServico
+            setServico,
+            valor,
+            setValor,
+            funcionario,
+            setFuncionario
         }}>
             {children}
         </CycleContext.Provider>

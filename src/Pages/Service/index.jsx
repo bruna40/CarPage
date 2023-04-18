@@ -1,12 +1,12 @@
 import { ContainerForm } from "./style";
-import { useState, useContext, useEffect } from "react";
+import { useContext } from "react";
 import { CycleContext } from "../../Context/CycleContext";
 import { Relogio } from "../../Components/Relogio";
 import { Cliente } from "../../Components/Cliente";
 
 
 export function Service() {
-    const [selecionado, setSelecionado] = useState();
+
     const { tempo, setTempo } = useContext(CycleContext);
 
 
@@ -15,12 +15,10 @@ export function Service() {
             setTempo(contador);
             start(contador + 1);
           }, 1000);
-        console.log('start');
-        console.log(contador);
     }
 
-    function stop (contador) {
-        clearTimeout(contador);
+    function stop () {
+        dispatch(stop());
     }
     return (
         <>
@@ -33,11 +31,9 @@ export function Service() {
                 <label htmlFor="funcionario">Funcionario:</label>
                 <input type="text" id="funcionario" />
                 <button type="button" onClick={() => start(tempo)}>Comerçar</button>
-                <button type="button" onClick={() => stop(tempo)}>Finalizar</button>
+                <button type="button" onClick={stop}>Finalizar</button>
             </ContainerForm>
-            <Relogio
-                selecionado={selecionado}
-            />
+            <Relogio />
         </>
     )
 }

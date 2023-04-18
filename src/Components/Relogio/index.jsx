@@ -11,7 +11,6 @@ export function Relogio() {
     const [segundoDezena, segundoUnidade] = String(segundos).padStart(2, '0');
 
 
-
     useEffect(() => {
         if(selecionado?.tempo) {
             setTempo(selecionado.tempo);
